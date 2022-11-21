@@ -1,0 +1,66 @@
+body{
+    margin: 0%;
+}
+nav{
+    background-color: aquamarine;
+}
+h1{
+    color: whitesmoke;
+    font-size: 40px;
+    margin: center;
+}
+.flex-container{
+    display: flex;
+}
+.flex-item1{
+    flex: 20%;
+    background-color: purple;
+}
+.flex-item2{
+    flex: 80%;
+    background-color: plum;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    display: inline;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    transition: 3s all;
+}
+a:hover{
+    background-color:purple;
+    color: black;
+}
+.slider{
+    padding:40px ;
+}
+.under{
+    border: 5px solid black ;
+    height:400px;
+}
+.slider{
+    height: 570px;
+    background-color:purple;
+    animation-name:section;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes section{
+    from{
+        background-color:purple;
+    }
+    to{
+        background-color: plum;
+    
+    }
+}
+
+
