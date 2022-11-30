@@ -1,0 +1,47 @@
+body{
+    margin: 0%;
+}
+.bg{
+    height: 600px;
+    width: 600px;
+    background-color: yellowgreen;
+}
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+
+   /* animation property */
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle{
+    0%{
+         left: 0%;
+         top: 0%;
+    }  
+    25%{
+        left: 500px;
+        top: 0%;
+     }
+     50%{
+        left: 500px;
+        top: 500px;
+     }
+     75%{
+        left: 0%;
+        top: 500px;
+     }
+     100%{
+        left: 0%;
+        top: 0;
+     }
+}
+
+
+
+
